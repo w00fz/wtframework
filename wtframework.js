@@ -31,15 +31,15 @@
 		},
 		
 		'MooTools': function(){
-			if (window.MooTools && MooTools.version <= "1.11") return MooTools.version;
+			if (window.MooTools && MooTools.version <= "1.12") return MooTools.version;
 		},
 
 		'MooTools-Core': function(){
-			if (window.MooTools && MooTools.version > "1.11") return MooTools.version;
+			if (window.MooTools && MooTools.version > "1.12") return MooTools.version;
 		},
 
 		'MooTools-More': function(){
-			if (!window.MooTools || (window.MooTools && MooTools.version <= '1.11')) return;
+			if (!window.MooTools || (window.MooTools && MooTools.version <= '1.12')) return;
 			
 			if (window.MooTools.More) return MooTools.More.version;
 			else if (window.Tips || window.Drag) return '< 1.2.2.1';

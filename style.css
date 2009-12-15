@@ -9,13 +9,22 @@ body {
 	text-align:center;
 	font-family:'Lucida Grande', Helvetica, sans-serif;
 	font-size:12px;
+	text-shadow: 1px 1px #000;
 	background:#222;
 	line-height:24px;
 	}
 
+h1 {
+	margin: 0 0 2em;
+	color: #666;
+	padding: 0;
+}
+
 a.link {
 	color:#444;
 	text-decoration:none;
+	border-bottom: 1px dotted #555;
+	padding-bottom: 2px;
 	}
 
 a.link:hover {

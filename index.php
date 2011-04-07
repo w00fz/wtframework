@@ -7,7 +7,9 @@
 	<link rel="stylesheet" type="text/css" media="screen" charset="utf-8" href="style.css" />
 </head>
 <body>
+	<h1>WTFramework?! Bookmarklet</h1>
 	<a class="button" href="javascript:<?= rawurlencode(JSMin::minify(file_get_contents('wtframework.js'))) ?>">wtframework!?</a>
-	<p>drag button to your bookmarks bar... <a class="link" href="wtframework.js">source</a></p>
+	<p>drag button to your bookmarks bar...<br />
+	You can find the source at <a class="link" href="http://github.com/w00fz/wtframework/">github</a></p>
 </body>
 </html>
